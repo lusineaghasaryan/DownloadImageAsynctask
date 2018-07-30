@@ -21,9 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
     public DownloadImage downloadImageAsync = new DownloadImage();
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,7 +66,5 @@ public class MainActivity extends AppCompatActivity {
                 mProgressBar.setProgress(i);
             }
         });
-
-
     }
 }
